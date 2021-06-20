@@ -1,0 +1,79 @@
+body{
+  background-image: url(courses.png);
+  background-size:1500px 715px;
+  background-repeat: no-repeat;
+}
+
+
+
+.Options{
+  position: relative;
+  left:1000px;
+  top:10px;
+}
+
+span{
+  font-size: 25px;
+  color: black;
+  font-weight: bold;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+.header{
+  position: fixed;
+  height: 75px;
+  top:0;
+  width: 100%;
+}
+
+.homeimage{
+  height: 500px;
+  width:900px;
+  position: relative;
+  bottom: 60px;
+  right: 150px;
+}
+.hometext{
+  color:black;
+  position:relative;
+  left:565px;
+  top:150px;
+  font-family: "DM Serif Display";
+  font-size:50px;
+  font-weight: bold;
+  text-align: justify;
+}
+
+.button {
+    border: 0;
+    line-height: 3;
+    padding: 0 20px;
+    font-size: 1.1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color:#ADE6E6;
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+   position: relative;
+   left:725px;
+   top:110px;
+}
+
+.button:hover {
+    background-color:black;
+}
+
+.button:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}

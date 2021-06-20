@@ -1,0 +1,331 @@
+body{
+    background-color: #ADE6E6;
+    background-size:1550px 750px;
+    background-repeat: no-repeat;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+  }
+
+
+header{
+
+  display: inline-block;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111111;
+}
+
+ul{
+  list-style-type: none;
+}
+
+.navbar{
+  position: relative;
+  left:950px;
+  bottom:15px;
+  font-size: 25px;
+  max-width: 650px;
+}
+
+img:not(.logo){
+  position:relative;
+  width:300px;
+  height: 200px;
+  background-color:#F6C6EA;
+  border-radius: 6%;
+  bottom: 7px;
+
+}
+.logo{
+
+  width: 350px;
+  height: auto;
+  position: relative;
+  bottom: 120px;
+}
+.course1{
+  background-color: white;
+  width:300px;
+  height:400px;
+  position: relative;
+  left:200px;
+  border-radius:6%;
+}
+
+.course1text{
+  position: relative;
+  left:20px;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.course1price{
+
+  position: relative;
+  left:245px;
+  color: purple;
+  font-weight: bold;
+}
+
+.buttoncourse1 {
+    border: 0;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    font-size: 1.1em;
+    background-color:#ADE6E6;
+    position: relative;
+    width: 100px;
+    height: 35px;
+    left:90px;
+ }
+ .buttoncourse1:hover{
+
+   background-color: black;
+ }
+
+
+.logolink{
+  font-size: 5px;
+  position: relative;
+  bottom:450px;
+  left:220px;
+  color: black;
+}
+
+
+span{
+  font-size: 25px;
+  color: black;
+  font-weight: bold;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+.navigationbar{
+  position: relative;
+  left:700px;
+}
+
+
+.course2{
+  background-color: white;
+  width:300px;
+  height:400px;
+  position: relative;
+  bottom:400px;
+  left:600px;
+  border-radius:6%;
+}
+
+.buttoncourse2 {
+    border: 0;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    font-size: 1.1em;
+    background-color:#ADE6E6;
+    position: relative;
+    width: 100px;
+    height: 35px;
+    left:90px;
+ }
+ .buttoncourse2:hover{
+
+   background-color: black;
+ }
+ .course2price{
+
+   position: relative;
+   left:245px;
+   color: purple;
+   font-weight: bold;
+ }
+
+.course2text{
+  position: relative;
+  left:20px;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.course3{
+  background-color: white;
+  width:300px;
+  height:400px;
+  position: relative;
+  bottom:800px;
+  left:1000px;
+  border-radius:6%;
+}
+
+.buttoncourse3 {
+    border: 0;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    font-size: 1.1em;
+    background-color:#ADE6E6;
+    position: relative;
+    width: 100px;
+    height: 35px;
+    left:90px;
+ }
+ .buttoncourse3:hover{
+
+   background-color: black;
+ }
+ .course3price{
+
+   position: relative;
+   left:245px;
+   color: purple;
+   font-weight: bold;
+ }
+
+.course3text{
+  position: relative;
+  left:20px;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.course4{
+  background-color: white;
+  width:300px;
+  height:400px;
+  position: relative;
+  bottom:700px;
+  left:200px;
+  border-radius:6%;
+}
+
+.buttoncourse4 {
+    border: 0;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    font-size: 1.1em;
+    background-color:#ADE6E6;
+    position: relative;
+    width: 100px;
+    height: 35px;
+    left:90px;
+ }
+ .buttoncourse4:hover{
+
+   background-color: black;
+ }
+ .course4price{
+
+   position: relative;
+   left:245px;
+   color: purple;
+   font-weight: bold;
+ }
+
+.course4text{
+  position: relative;
+  left:20px;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.course5{
+  background-color: white;
+  width:300px;
+  height:400px;
+  position: relative;
+  bottom:1100px;
+  left:600px;
+  border-radius:6%;
+}
+
+.buttoncourse5 {
+    border: 0;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    font-size: 1.1em;
+    background-color:#ADE6E6;
+    position: relative;
+    width: 100px;
+    height: 35px;
+    left:90px;
+ }
+ .buttoncourse5:hover{
+
+   background-color: black;
+ }
+ .course5price{
+
+   position: relative;
+   left:245px;
+   color: purple;
+   font-weight: bold;
+ }
+
+.course5text{
+  position: relative;
+  left:20px;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+
+.course6{
+  background-color: white;
+  width:300px;
+  height:400px;
+  position: relative;
+  bottom:1500px;
+  left:1000px;
+  border-radius:6%;
+}
+
+.buttoncourse6 {
+    border: 0;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    font-size: 1.1em;
+    background-color:#ADE6E6;
+    position: relative;
+    width: 100px;
+    height: 35px;
+    left:90px;
+ }
+ .buttoncourse6:hover{
+
+   background-color: black;
+ }
+ .course6price{
+
+   position: relative;
+   left:245px;
+   color: purple;
+   font-weight: bold;
+ }
+
+.course6text{
+  position: relative;
+  left:20px;
+  font-weight: bold;
+  font-size: 17px;
+}
